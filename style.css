@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section, summary {
+    display: block;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+a {
+    color: #6cf;
+}
+
+a:hover {
+    color: #369;
+    text-decoration: none;
+}
+
+html, body {
+    background: #fff;
+}
+
+body {
+    color: #333;
+    font: 12px/16px "Open Sans", serif;
+    margin: 30px auto;
+    max-width: 1000px;
+    padding: 30px;
+}
+
+h1 {
+    color: #0cd;
+    font: 600 64px/32px Edmondsans, Lato, "Helvetica Neue", sans-serif;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+h2, h3, h4 {
+    font: 400 16px/20px Lato, "Open Sans", sans-serif;
+}
+
+h2 {
+    color: #4bb;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+h4 {
+    color: #6af;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 30px 0 15px;
+}
+
+section {
+    margin-top: 45px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 26px;
+}
+
+li {
+    position: relative;
+}
+
+li:before {
+    /* To style list items as a different colour. */
+    color: #ccc;
+    content: "○";
+    position: absolute;
+    left: -26px;
+}
+
+li + li {
+    margin-top: 30px;
+}
+
+.our-header {
+    margin-bottom: 60px;
+}
+
+.our-team section {
+    position: relative;
+}
+
+.our-team header {
+    margin-top: 45px;
+}
+
+.our-team header:first-child {
+    margin-top: 0;
+}
+
+.our-team h3 {
+    min-height: 64px;
+}
+
+.avatar {
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 64px;
+    position: absolute;
+    height: 64px;
+    margin-right: 15px;
+    width: 64px;
+}
+
+.our-team h3 b,
+.our-team p {
+    margin-left: 83px;
+}
+
+.our-team h3 b {
+    display: block;
+    position: absolute;
+    top: 10px;
+}
+
+.our-team p {
+    position: absolute;
+    top: 5px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.our-beliefs {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.our-money .amount {
+    color: green;
+    vertical-align: top;
+}
+
+.our-money .amount b {
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+p,
+ul {
+    margin-top: 30px;
+}
+
+h2 + p {
+    margin-top: 0;
+}
+
+@media print {
+    h2 {
+        color: #4ee;
+    }
+}
